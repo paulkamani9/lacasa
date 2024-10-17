@@ -8,7 +8,6 @@ type CityCardPros = {
 };
 
 const CityCard = ({
-  id,
   image,
   cityName,
   numberOfProperties,

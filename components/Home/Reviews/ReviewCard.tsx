@@ -10,7 +10,6 @@ type UserReviewProps = {
 };
 
 const ReviewCard = ({
-  id,
   name,
   location,
   userImage,

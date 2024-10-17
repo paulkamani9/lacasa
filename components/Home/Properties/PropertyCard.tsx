@@ -1,8 +1,7 @@
 import Image from "next/image";
 import { BiLinkExternal } from "react-icons/bi";
-import { BsHeart, BsPlus, BsPlusSquare } from "react-icons/bs";
+import { BsHeart, BsPlusSquare } from "react-icons/bs";
 import { FaBath, FaBed, FaRuler } from "react-icons/fa";
-import { LiaBell } from "react-icons/lia";
 import { MdElectricBolt } from "react-icons/md";
 
 type PropertyCardProps = {

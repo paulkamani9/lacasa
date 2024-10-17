@@ -1,6 +1,5 @@
 import Image from "next/image";
 import {
-  FaFacebook,
   FaFacebookF,
   FaInstagram,
   FaTiktok,

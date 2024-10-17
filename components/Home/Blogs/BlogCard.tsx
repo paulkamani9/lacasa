@@ -1,4 +1,3 @@
-import { blogs } from "@/data/data";
 import Image from "next/image";
 import { BiCalendar, BiMessage } from "react-icons/bi";
 import { BsArrowRight } from "react-icons/bs";
@@ -13,7 +12,6 @@ type BlogProps = {
 };
 
 const BlogCard = ({
-  id,
   date,
   comment,
   title,
