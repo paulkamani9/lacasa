@@ -3,7 +3,7 @@ import LoanCalculatorCard from "./LoanCalculatorCard";
 
 const LoanCalculator = () => {
   return (
-    <div className="py-16 bg-gray-200">
+    <div className="py-16 bg-gray-100">
       <div className="mx-auto w-[80%] flex flex-col">
         <SectionHeading
           heading="Try our Loan Calculator"

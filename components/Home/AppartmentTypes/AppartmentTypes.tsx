@@ -4,7 +4,7 @@ import AppartmentTypeCard from "./AppartmentTypeCard";
 
 const AppartmentTypes = () => {
   return (
-    <div className="pt-16 pb-16">
+    <div className="pt-16 pb-16 bg-slate-50">
       <div className="w-[80%] mx-auto">
         <SectionHeading
           heading="Apartment Types"
@@ -15,7 +15,7 @@ const AppartmentTypes = () => {
             <div
               key={type.id}
               data-aos="zoom-in"
-              data-aos-delay={`${index * 150}`}
+              data-aos-delay={`${index * 10}`}
             >
               <AppartmentTypeCard {...type} />
             </div>

@@ -32,13 +32,13 @@ const Navbar = ({ openNav }: NavbarProps) => {
   return (
     <div
       className={`fixed h-[10vh] z-[100] w-full transition-all duration-200 ${
-        navBg && pathName !== "" ? "bg-black" : ""
+        navBg && pathName !== "" ? "bg-black/90" : ""
       }`}
     >
       <div className="flex items-center h-full justify-between w-[95%] sm:w-[90%] xl:w-[80%] mx-auto py-1">
         {/* logo */}
         <div className="flex items-center space-x-2">
-          <div className="w-[64px] h-[60px] md:w-[74px] md:h-[68px]    relative">
+          <div className="w-[58px] h-[54px] md:w-[68px] md:h-[62px]    relative">
             <Image
               src={"/logos/wAndG.png"}
               alt="la casa properties logo"

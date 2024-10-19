@@ -30,8 +30,8 @@ const Home = () => {
   return (
     <div className="overflow-hidden">
       <Hero />
-      <AppartmentTypes />
       <Properties />
+      <AppartmentTypes />
       <CityProperties />
       <BuildingFeature />
       <Reviews />

@@ -12,7 +12,7 @@ const Properties = () => {
             <div
               key={property.id}
               data-aos="fade-up"
-              data-aos-delay={`${index * 150}`}
+              data-aos-delay={`${index * 10}`}
             >
               <PropertyCard {...property} />
             </div>
