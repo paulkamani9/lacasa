@@ -89,7 +89,7 @@ const LoanCalculatorCard = () => {
                       defaultValue={field.value}
                     >
                       <FormControl>
-                        <SelectTrigger className="text-base px-6 flex items-center gap-4">
+                        <SelectTrigger className="text-base px-2 flex items-center gap-4">
                           <SelectValue placeholder="Choose a Bank" />
                         </SelectTrigger>
                       </FormControl>
@@ -108,7 +108,7 @@ const LoanCalculatorCard = () => {
 
               {/* Interest rates */}
               <div className="flex flex-col items-start gap-4">
-                <p className="font-medium">Interest Rate per year</p>
+                <p className="font-medium text-sm">Rate per year</p>
                 <p className="text-gray-700 font-medium px-4">12.5 %</p>
               </div>
             </div>
