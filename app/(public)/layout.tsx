@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
-import "./globals.css";
+import "@/app/globals.css";
 import ResponsiveNavbar from "@/components/Home/Navbar/ResponsiveNavbar";
 import Footer from "@/components/Home/Footer/Footer";
 import ScrollToTop from "@/components/Helpers/ScrollToTop";

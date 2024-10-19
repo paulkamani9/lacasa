@@ -16,7 +16,6 @@ const AppartmentTypes = () => {
               key={type.id}
               data-aos="zoom-in"
               data-aos-delay={`${index * 150}`}
-              data-aos-anchor-placement="top-center"
             >
               <AppartmentTypeCard {...type} />
             </div>

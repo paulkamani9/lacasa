@@ -10,6 +10,7 @@ import Properties from "./Properties/Properties";
 import Reviews from "./Reviews/Reviews";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import LoanCalculator from "./LoanCalculator/LoanCalculator";
 
 const Home = () => {
   useEffect(() => {
@@ -34,6 +35,7 @@ const Home = () => {
       <CityProperties />
       <BuildingFeature />
       <Reviews />
+      <LoanCalculator />
       <Blogs />
     </div>
   );

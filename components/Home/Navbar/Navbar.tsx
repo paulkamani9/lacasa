@@ -3,6 +3,7 @@
 import { navLinks } from "@/constants/constant";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { FaUserCircle } from "react-icons/fa";
 import { HiBars3BottomRight } from "react-icons/hi2";
@@ -13,6 +14,7 @@ type NavbarProps = {
 
 const Navbar = ({ openNav }: NavbarProps) => {
   const [navBg, setNavBg] = useState(false);
+  const pathName = usePathname();
 
   useEffect(() => {
     const handler = () => {
@@ -26,10 +28,12 @@ const Navbar = ({ openNav }: NavbarProps) => {
       window.removeEventListener("scroll", handler);
     };
   }, []);
-  
+
   return (
     <div
-      className={`fixed h-[10vh] z-[100] w-full transition-all duration-200 ${navBg ? "bg-black" : ""}`}
+      className={`fixed h-[10vh] z-[100] w-full transition-all duration-200 ${
+        navBg && pathName !== "" ? "bg-black" : ""
+      }`}
     >
       <div className="flex items-center h-full justify-between w-[95%] sm:w-[90%] xl:w-[80%] mx-auto py-1">
         {/* logo */}

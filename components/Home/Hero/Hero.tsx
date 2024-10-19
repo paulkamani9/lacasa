@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="w-full pt-[4vh] md:pt-[12vh] h-screen bg-[#0f0715] overflow-hidden relative bg-cover bg-center">
       {/* Video Background  */}
-      <video
+      {/* <video
         autoPlay
         muted
         loop
@@ -12,7 +12,7 @@ const Hero = () => {
       >
         <source src="/videos/hero.mp4" type="video/mp4" />
         Your browser does not support the video tag.
-      </video>
+      </video> */}
 
       {/* Black Overlay */}
       <div className="absolute inset-0 bg-black opacity-50 z-10" />

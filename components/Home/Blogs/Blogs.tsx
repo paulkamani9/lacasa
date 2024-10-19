@@ -13,7 +13,6 @@ const Blogs = () => {
               key={blog.id}
               data-aos="zoom-out"
               data-aos-delay={`${index * 150}`}
-              data-aos-anchor-placement="top-center"
             >
               <BlogCard {...blog} />
             </div>

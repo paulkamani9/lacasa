@@ -13,7 +13,6 @@ const BuildingFeature = () => {
               key={building.id}
               data-aos="fade-left"
               data-aos-delay={`${index * 150}`}
-              data-aos-anchor-placement="top-center"
             >
               <BuildingFeatureCard {...building} />
             </div>
