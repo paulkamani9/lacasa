@@ -5,7 +5,7 @@ import BlogCard from "./BlogCard";
 const Blogs = () => {
   return (
     <div className="py-16 pb-16 bg-gray-200">
-      <div className="w-[80%] mx-auto">
+      <div className="w-[85%] mx-auto">
         <SectionHeading heading="Blogs" />
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 mt-16 gap-6 items-center">
           {blogs.map((blog, index) => (

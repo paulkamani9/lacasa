@@ -5,7 +5,7 @@ import BuildingFeatureCard from "./BuildingFeatureCard";
 const BuildingFeature = () => {
   return (
     <div className="py-16 bg-gray-100">
-      <div className="w-[80%] mx-auto">
+      <div className="w-[85%] mx-auto">
         <SectionHeading heading="Features" description="What do you want" />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 items-center mt-14">
           {buildings.map((building, index) => (

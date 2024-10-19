@@ -9,7 +9,7 @@ import {
 const Footer = () => {
   return (
     <div className="pt-20 pb-12 bg-black ">
-      <div className="w-[80%] mx-auto grid items-start grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 pb-8 border-b-[1.5px] border-white border-opacity-20">
+      <div className="w-[85%] mx-auto grid items-start grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 pb-8 border-b-[1.5px] border-white border-opacity-20">
         {/* first grid */}
         <div className="flex flex-col items-center space-x-2">
           <div className="w-[64px] h-[60px] md:w-[74px] md:h-[68px]    relative">

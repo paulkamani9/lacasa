@@ -5,7 +5,7 @@ import AppartmentTypeCard from "./AppartmentTypeCard";
 const AppartmentTypes = () => {
   return (
     <div className="pt-16 pb-16 bg-slate-50">
-      <div className="w-[80%] mx-auto">
+      <div className="w-[85%] mx-auto">
         <SectionHeading
           heading="Apartment Types"
           description="What are you looking for"

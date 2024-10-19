@@ -4,7 +4,7 @@ import CitySlider from "./CitySlider";
 const CityProperties = () => {
   return (
     <div className="py-16">
-      <div className="w-[80%] mx-auto">
+      <div className="w-[85%] mx-auto">
         <SectionHeading
           heading="Explore"
           description="Where do you want to live"
