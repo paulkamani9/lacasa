@@ -38,7 +38,7 @@ const Navbar = ({ openNav }: NavbarProps) => {
       <div className="flex items-center h-full justify-between w-[95%] sm:w-[90%] xl:w-[80%] mx-auto py-1">
         {/* logo */}
         <div className="flex items-center space-x-2">
-          <div className="w-[58px] h-[54px] md:w-[68px] md:h-[62px]    relative">
+          <div className="w-[65.25px] h-[56.9px] relative">
             <Image
               src={"/logos/wAndG.png"}
               alt="la casa properties logo"
@@ -46,7 +46,7 @@ const Navbar = ({ openNav }: NavbarProps) => {
               objectFit="center"
             />
           </div>
-          <h1 className="font-bold text-sm sm:text-base md:text-xl text-white ">
+          <h1 className="font-bold text-sm sm:text-base md:text-lg text-white ">
             La Casa Properties
           </h1>
         </div>
