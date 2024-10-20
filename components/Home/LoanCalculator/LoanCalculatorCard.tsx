@@ -73,7 +73,12 @@ const LoanCalculatorCard = () => {
                       className="text-base"
                     />
                   </FormControl>
-                  <FormDescription className="ml-4">{makeCurrency(field.value)}</FormDescription>
+                  {field.value && (
+                    <FormDescription className="ml-4">
+                      {makeCurrency(field.value)}
+                    </FormDescription>
+                  )}
+
                   <FormMessage />
                 </FormItem>
               )}
