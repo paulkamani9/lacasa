@@ -13,14 +13,14 @@ export const appartmentTypeData = [
   },
   {
     id: 3,
-    icon: "/images/a3.png",
-    type: "Office",
+    icon: "/images/land.png",
+    type: "Land",
     number: 14,
   },
   {
     id: 4,
-    icon: "/images/a4.png",
-    type: "Villa",
+    icon: "/images/a3.png",
+    type: "Office",
     number: 9,
   },
   {

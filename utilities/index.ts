@@ -1,10 +1,9 @@
-"use server";
 type values = {
   totalAmount: number;
   duration: number;
   bank: string;
 };
-export const calculateMonthlyPayments = async({
+export const calculateMonthlyPayments = async ({
   totalAmount,
   duration,
 }: //   bank,
@@ -23,4 +22,14 @@ values) => {
 
   const monthlyPayments = A / totalMonths;
   return { monthlyPayments };
+};
+
+export const makeCurrency = (price: number) => {
+  let mur = new Intl.NumberFormat("en-us", {
+    style: "currency",
+    currency: "MUR",
+  });
+
+  const currency = mur.format(price);
+  return currency;
 };

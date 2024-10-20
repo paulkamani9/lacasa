@@ -9,6 +9,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import {
   Form,
   FormControl,
+  FormDescription,
   FormField,
   FormItem,
   FormLabel,
@@ -23,7 +24,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
-import { calculateMonthlyPayments } from "@/utilities";
+import { calculateMonthlyPayments, makeCurrency } from "@/utilities";
 import { BsExclamationCircleFill, BsFillCheckCircleFill } from "react-icons/bs";
 
 const LoanCalculatorCard = () => {
@@ -62,7 +63,7 @@ const LoanCalculatorCard = () => {
               render={({ field }) => (
                 <FormItem>
                   <FormLabel className="text-base">
-                    Total Amount (mur):
+                    Total Amount (MUR):
                   </FormLabel>
                   <FormControl>
                     <Input
@@ -72,6 +73,7 @@ const LoanCalculatorCard = () => {
                       className="text-base"
                     />
                   </FormControl>
+                  <FormDescription className="ml-4">{makeCurrency(field.value)}</FormDescription>
                   <FormMessage />
                 </FormItem>
               )}
@@ -144,8 +146,8 @@ const LoanCalculatorCard = () => {
                 <p className="">
                   Monthly Payments:
                   <span className="font-semibold">
-                    {" " + monthlyPayments.toFixed(2) + " mur "}
-                  </span>{" "}
+                    {" " + makeCurrency(monthlyPayments)}
+                  </span>
                 </p>
               </div>
             )}
